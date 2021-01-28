@@ -14,12 +14,10 @@ public class Automato {
 	//String inicializada para manter o estado da palavra sendo formada
 	private static String palavra = new String();
 
-
 	//Método principal para inicialização do programa
 	public static void main(String[] args) {
-		
-		perguntarPalavra("p", "d");
 
+		perguntarPalavra("p", "d");
 		//Opção P
 		if (valoratual.equalsIgnoreCase("p")) {
 			palavra += valoratual;
@@ -42,7 +40,6 @@ public class Automato {
 					perguntarPalavra("s", "fim");
 				} 
 				System.out.println("Palavra formada no Automoto: "+ palavra);
-
 			}
 
 
@@ -68,7 +65,6 @@ public class Automato {
 				System.out.println("Palavra formada no Automoto: "+ palavra);	
 			}
 		}
-
 	}
 
 	//Método utilizado diversas vezes para continuação do fluxo e loop
